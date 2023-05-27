@@ -52,6 +52,10 @@ function draw() {
   } else if (shape === 'triangle') {
     triangle(40, 40, 140, 40, 90, 90);
   }
+  fill(255);
+  textSize(18);
+  textAlign(CENTER);
+  text("Change color and shape by pinching fingers", width / 2, height - 20);
 }
 
 //draw pinch
